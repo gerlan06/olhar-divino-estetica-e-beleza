@@ -7,8 +7,10 @@
    
 }
 header{
-    background-color: #24252a;
+    background-image: linear-gradient(45deg, #ED2461,#FB6090,#D52057 );
+    width: 100%;
     box-shadow: 0px 3px 10px #464646;
+
 }
 .nav-bar{
     display: flex;
@@ -124,17 +126,18 @@ li a:hover{
 	}
 
 @keyframes mudançadecor {
-	0% {background-color: rgb(235, 142, 157);}
-	25% {background-color: rgb(231, 61, 175);}
-	50% {background-color: rgb(235, 142, 157);}
-	75% {background-color: rgb(231, 61, 175);}
-	100% {background-color: rgb(235, 142, 157);}
+	0% {background-color: #ED2461;}
+	25% {background-color: #FB6090;}
+	50% {background-color: rgb(231, 61, 175);}
+	100% {background-color:#D52057  ;}
+	
   }
 
 
   /*quadro do layout*/
 #quadro{
-	background: pink ;
+	background-color: #FB6090;
+    box-shadow: 0px 3px 10px #464646;
 	padding: 18px;
 	width: 80%;
 	border-radius: 18px;
@@ -165,6 +168,7 @@ h1{
 
 .img{ 
     border-radius: 10px;
+    box-shadow: 0px 3px 10px #464646;
 }
 
 .text2{

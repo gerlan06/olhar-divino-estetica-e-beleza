@@ -17,7 +17,7 @@ header{
 }
 .logo{
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .logo h1{

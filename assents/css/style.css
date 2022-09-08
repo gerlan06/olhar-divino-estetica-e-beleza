@@ -19,7 +19,7 @@ header{
 }
 .logo{
     display: flex;
-    align-items: right;
+    text-align: left;
 }
 
 .logo h1{
@@ -28,12 +28,14 @@ header{
 
 .nav-list{
     display: flex;
-    align-items: center;
+   align-items: center;
+    
 }
 .nav-list ul{
     display: flex;
     justify-content: center;
     list-style: none;
+    
 }
 
 li a:hover{
@@ -176,3 +178,24 @@ h1{
 .text2{
 text-decoration: underline;
 }
+
+/*paginação*/
+.paginação {
+    display: inline-block;
+  }
+  
+  .paginação a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .paginação a.active {
+    background-image: linear-gradient(45deg, #ED2461,#f0e5e8,#D52057 );
+    color: rgb(12, 12, 12);
+    border-radius: 10px;
+  }
+  
+  .paginação a:hover:not(.active) {background-color: #ddd;}

@@ -19,7 +19,7 @@ header{
 }
 .logo{
     display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .logo h1{
@@ -33,7 +33,7 @@ header{
 }
 .nav-list ul{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     list-style: none;
     
 }
